@@ -36,24 +36,24 @@
                 <a class="nav-link" aria-current="page" href="/">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes Somos</a>
+                <a class="nav-link" href="#whoarewe">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#highlights">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contacto</a>
+                <a class="nav-link" href="#contactus">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <!-- Bootstrap Component Carousel -->
+      <!-- Carousel - Bootstrap Component -->
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active carousel_item_container_custom">
-            <img src="assets/img/carousel1.jpg" class="carousel_img_custom" style="object-fit: cover;" alt="Alpacas">
+            <img src="assets/img/carousel1.jpg" class="carousel_img_custom" alt="Alpacas">
           </div>
           <div class="carousel-item carousel_item_container_custom">
             <img src="assets/img/carousel2.jpg" class="carousel_img_custom" alt="Moais">
@@ -72,13 +72,14 @@
         </button>
       </div>
 
-      <!-- Content Section 3 Bootstrap Columns -->
+      <!-- Content Section Columns - Bootstrap Component -->
+      <section id="whoarewe">
       <h2 class="text-center mt-5 mb-4 d-none d-sm-block">¿Quiénes somos?</h2>
       <hr class="hr_section_top d-none d-sm-block">
       <section class="container content_section_container_custom d-none d-sm-block">
         <div class="row">
           <div class="col-lg-4 mt-4">
-            <i class="fas fa-plane fa-2x icon_custom_class mb-3"></i>
+            <i class="fas fa-plane fa-2x icon_custom_class mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Viajes en Avión"></i>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores id vel adipisci consequuntur fuga illo repellat perspiciatis doloribus sit beatae possimus aut, numquam, dolorum dolores voluptas quia? Est, libero.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio necessitatibus? Inventore commodi porro exercitationem. Quibusdam, nemo! Ipsam, nobis? Recusandae similique doloribus eum sint est mollitia excepturi minus consectetur accusantium.
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores mollitia, recusandae necessitatibus fugit commodi odio ducimus sit eos numquam reiciendis deserunt repudiandae tenetur excepturi laborum doloribus quaerat rerum similique sunt.
@@ -87,18 +88,20 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores id vel adipisci consequuntur fuga illo repellat perspiciatis doloribus sit beatae possimus aut, numquam, dolorum dolores voluptas quia? Est, libero.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio necessitatibus? Inventore commodi porro exercitationem. Quibusdam, nemo! Ipsam, nobis? Recusandae similique doloribus eum sint est mollitia excepturi minus consectetur accusantium.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores mollitia, recusandae necessitatibus fugit commodi odio ducimus sit eos numquam reiciendis deserunt repudiandae tenetur excepturi laborum doloribus quaerat rerum similique sunt.
-          <i class="fas fa-mountain fa-2x icon_custom_class mt-3"></i>
+          <i class="fas fa-mountain fa-2x icon_custom_class mt-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Viajes a las Montañas"></i>
           </div>
           <div class="col-lg-4 mt-4 mb-5">
-            <i class="fas fa-route fa-2x icon_custom_class mb-3"></i>
+            <i class="fas fa-route fa-2x icon_custom_class mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Viajes en Autopista"></i>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores id vel adipisci consequuntur fuga illo repellat perspiciatis doloribus sit beatae possimus aut, numquam, dolorum dolores voluptas quia? Est, libero.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio necessitatibus? Inventore commodi porro exercitationem. Quibusdam, nemo! Ipsam, nobis? Recusandae similique doloribus eum sint est mollitia excepturi minus consectetur accusantium.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores mollitia, recusandae necessitatibus fugit commodi odio ducimus sit eos numquam reiciendis deserunt repudiandae tenetur excepturi laborum doloribus quaerat rerum similique sunt.
           </div>
         </div>
       </section>
+    </section>
 
-      <!-- Highlights Section 4 Bootstrap Cards -->
+      <!-- Highlights Section Cards - Bootstrap Component -->
+      <section id="highlights">
       <h2 class="text-center mt-5 mb-4 title_top_separation">Destacados</h2>
       <hr class="hr_section_top">
       <section class="container container_highlights_custom_class">
@@ -141,11 +144,13 @@
           </div>
         </div>
       </section>
-
+    </section>
       <!-- Contact Us Section - Typeform Form -->
-      <h2 class="text-center mt-5 mb-4 title_top_separation">Contacto</h2>
-      <hr class="hr_section_top">
-      <div data-tf-widget="HbUTZTCP" class="typeform_custom_class"></div><script src="//embed.typeform.com/next/embed.js"></script>
+      <section id="contactus">
+        <h2 class="text-center mt-5 mb-4 title_top_separation">Contacto</h2>
+        <hr class="hr_section_top">
+        <div data-tf-widget="HbUTZTCP" class="typeform_custom_class"></div><script src="//embed.typeform.com/next/embed.js"></script>
+      </section>
       <!-- Footer Section -->
       <footer class="footer_section">
       <div class="container">
@@ -155,16 +160,16 @@
           </div>
           <div class="col-lg-6 footer_icons">
             <a href="https://github.com/" target="_blank"><i class="fab fa-github fa-2x mx-2 my-2"></i></a>
-            <i class="fab fa-linkedin fa-2x mx-2 my-2"></i>
-            <i class="fab fa-twitter-square fa-2x mx-2 my-2"></i>
-            <i class="fab fa-facebook-square fa-2x mx-2 my-2"></i>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x mx-2 my-2"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x mx-2 my-2"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x mx-2 my-2"></i></a>
           </div>
         </div>
       </div>
       </footer>
-      <!-- My own JS Script -->
-    <script src="assets/js/script.js"></script>
     <!-- Bootstrap JS Bundle v5.1 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- My own JS Script -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

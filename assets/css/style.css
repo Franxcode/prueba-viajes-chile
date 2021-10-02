@@ -127,3 +127,18 @@ body {
   display: flex;
   justify-content: end;
 }
+.footer_icons a {
+  text-decoration: none;
+  color: #fff;
+}
+.tooltip .bs-tooltip-top {
+  background-color: #fff;
+}
+.tooltip-arrow .tooltip-inner {
+  color: #fff;
+  background-color: #fff;
+}
+.tooltip-inner {
+  color: #fff;
+  background-color: #3fcfc3;
+}
