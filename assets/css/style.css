@@ -267,3 +267,131 @@ body {
     background-color: #3fcfc3;
   }
 }
+@media (max-width: 768px) {
+  /* Navbar Styles */
+  .navbar_svg_logo {
+    min-width: 10%;
+    height: 5%;
+    margin-right: 5px;
+  }
+  .navbar_custom {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    background-color: transparent;
+    width: 100%;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #fff;
+  }
+  .navbar-brand {
+    display: flex;
+    justify-content: start;
+    margin: 0px;
+    max-width: 220px;
+  }
+  .navbar_items_custom {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+  }
+  /* Carousel Styles */
+  .carousel_item_container_custom {
+    width: 100%;
+  }
+  .carousel_img_custom {
+    min-width: 100%;
+    height: 250px;
+    object-fit: fill;
+  }
+  /* Content Styles */
+  .hr_section_top {
+    border: 2px solid rgba(0, 255, 232, 0.75);
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 1;
+  }
+  .content_section_container_custom {
+    max-width: 90%;
+  }
+  .icon_custom_class {
+    display: block;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    background-color: #3fcfc3;
+  }
+  /* Highlights Styles */
+  .container_highlights_custom_class {
+    max-width: 90%;
+    align-items: center;
+  }
+  .card-body {
+    background-color: #3fcfc3;
+    max-height: auto;
+  }
+  .card-img-top {
+    max-height: 200px;
+  }
+  .card-title {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  .card-text {
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  .title_top_separation {
+    padding-top: 90px;
+  }
+  /* Contact Us Styles */
+  .typeform_custom_class {
+    max-width: 90%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* Footer Styles */
+  .footer_section {
+    background-color: #3fcfc3;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .footer_row_custom {
+    justify-content: center;
+  }
+  .footer_logo {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  .footer_icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .footer_icons a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .tooltip .bs-tooltip-top {
+    background-color: #fff;
+  }
+  .tooltip-arrow .tooltip-inner {
+    color: #fff;
+    background-color: #fff;
+  }
+  .tooltip-inner {
+    color: #fff;
+    background-color: #3fcfc3;
+  }
+}
