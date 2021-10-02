@@ -73,3 +73,56 @@ body {
   padding: 5px 0px 5px 0px;
   background-color: #3fcfc3;
 }
+/* Highlights Styles */
+.container_highlights_custom_class {
+  max-width: 90%;
+  align-items: center;
+}
+.card-body {
+  background-color: #3fcfc3;
+  max-height: auto;
+}
+.card-img-top {
+  max-height: 200px;
+}
+.card-title {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 23px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.card-text {
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.title_top_separation {
+  padding-top: 90px;
+}
+/* Contact Us Styles */
+.typeform_custom_class {
+  max-width: 90%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* Footer Styles */
+.footer_section {
+  background-color: #3fcfc3;
+  font-size: 30px;
+  font-weight: 400;
+}
+.footer_logo {
+  display: flex;
+  justify-content: start;
+}
+.footer_icons {
+  display: flex;
+  justify-content: end;
+}
