@@ -121,6 +121,7 @@ body {
 .footer_logo {
   display: flex;
   justify-content: start;
+  text-transform: uppercase;
 }
 .footer_icons {
   display: flex;
