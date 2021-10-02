@@ -1,0 +1,57 @@
+body,
+p,
+section,
+article,
+div,
+nav,
+footer,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+/* Navbar Styles */
+.navbar_svg_logo {
+  width: 5%;
+  height: 5%;
+  margin-right: 5px;
+}
+.navbar_custom {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  background-color: transparent;
+  width: 100%;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+.navbar-brand {
+  display: flex;
+  justify-content: start;
+  margin-left: 50px;
+}
+.navbar_items_custom {
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+}
+/* Carousel Styles */
+.carousel_custom {
+  position: absolute;
+  top: 0;
+}
+.carousel_inner_custom {
+  top: 0;
+  left: 0;
+}
+.carousel_img_custom {
+  max-width: 100%;
+  height: auto;
+}
